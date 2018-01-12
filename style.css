@@ -5,13 +5,19 @@ body{
 	background-color: white;
 	/* color: white; */
 	padding: 0;
-	height: 900px;
+	padding-bottom: 50px;
 }
-/* ___Heder_____________________________________________ */
+/* ___Header_____________________________________________ */
 header{
-	height: 130px;
-	background-color: beige;
+	height: 20%;
 	text-align: center;
+}
+header h1{
+	font-family: 'Pacifico', cursive;
+	font-size: 5em;
+}
+#myCarousel img{
+	width: 100%;
 }
 /* ____Products________________________________________*/
 .col img{
@@ -26,18 +32,11 @@ header{
 .row{
 	padding: 10px;
 }
-/* ___Footer__________________________________________*/
-/* #footer{
-	height: 100px;
-	text-align: center;
-	background-color: gray;
+input{
+	width: 100%;
 }
-#lastRow{
-	padding: 15px;
-	margin-bottom: 0px;
-	position: sticky;
-	bottom: 0px;
-} */
+/* ___Footer__________________________________________*/
+
 footer{
 	height: 40px;
 	width: 100%;

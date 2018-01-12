@@ -19,7 +19,10 @@ header h1{
 #myCarousel img{
 	width: 100%;
 }
-/* ____Products________________________________________*/
+.carousel-caption{
+	padding-bottom: 0;
+}
+/* ____Main area________________________________________*/
 .col img{
 	height: 200px;
 	float: left;
@@ -35,6 +38,9 @@ header h1{
 input{
 	width: 100%;
 }
+h3{
+	margin-left: 10px;
+}
 /* ___Footer__________________________________________*/
 
 footer{
@@ -43,4 +49,13 @@ footer{
 	text-align: center;
 	position: fixed;
 	bottom: 0px;
+}
+
+/* little break for the title, to prevent the jumping out of screan */
+@media (max-width: 460px) {
+	header h1{
+		font-family: 'Pacifico', cursive;
+		font-size: 3em;
+		margin-bottom: 0;
+	}
 }

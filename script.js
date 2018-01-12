@@ -19,7 +19,8 @@ class Media {
 	}
 }
 
-Genre = ["Rock", "Pop", "Soundtrack", "Horror", "Comedy", "Drama", "Documentary", "Children", "Belletristik", "Sci fi", "Fantasy", "Hero", "Comedy", "Alternative"];
+Genre = ["Rock", "Pop", "Soundtrack", "Horror", "Comedy", "Drama", "Documentary", 
+"Children", "Belletristik", "Sci fi", "Fantasy", "Hero", "Comedy", "Alternative"];
 
 // Inserting the Data in the Col________________________________________
 var Book1 = new Media("Woodwalkers", "Katja Brandis", Genre[8],
@@ -69,3 +70,13 @@ DVD2.text("eleven")
 var DVD3 = new Media("The Room", "Tommy Wiseau", Genre[5], 
 	"Tommy Wiseau", "img/theroom.jpg", "1/5");
 DVD3.text("twelve")
+
+// try add new Media______________________________________________
+
+// function newMedia() {
+//     var new_Media = document.getElementById("new-media").value;
+//     var newdiv = document.createElement("div");
+//     newdiv.appendChild(document.createTextNode(new_Media));
+//     document.body.appendChild(newdiv);
+// }
+

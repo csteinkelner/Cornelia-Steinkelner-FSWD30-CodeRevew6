@@ -1,6 +1,11 @@
+body{
+	background-image: url('img/books.jpg');
+}
 .container{
-	background-color: lightblue;
+	background-color: white;
+	/* color: white; */
 	padding: 0;
+	height: 900px;
 }
 /* ___Heder_____________________________________________ */
 header{
@@ -34,10 +39,9 @@ header{
 	bottom: 0px;
 } */
 footer{
-	height: 80px;
+	height: 40px;
 	width: 100%;
 	text-align: center;
-	background-color: gray;
 	position: fixed;
 	bottom: 0px;
 }

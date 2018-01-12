@@ -1,3 +1,4 @@
+// creating a template
 class Media {
 
 	constructor(Title, Author, Genre, Publisher, Image, Rating) {
@@ -20,6 +21,7 @@ class Media {
 
 Genre = ["Rock", "Pop", "Crimi", "Horror", "Comedy", "Drama", "Documentary", "Children", "Belletristik"];
 
+// Inserting the Data in the Col________________________________________
 var Book1 = new Media("Woodwalkers", "Katja Brandis", Genre[8],
 	"Bild","img/Woodwalkers.jpg",);
 Book1.text("one");

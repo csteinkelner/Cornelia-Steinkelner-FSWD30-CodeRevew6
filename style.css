@@ -1,0 +1,43 @@
+.container{
+	background-color: lightblue;
+	padding: 0;
+}
+/* ___Heder_____________________________________________ */
+header{
+	height: 130px;
+	background-color: beige;
+	text-align: center;
+}
+/* ____Products________________________________________*/
+.col img{
+	height: 200px;
+	float: left;
+	margin-bottom: 10px;
+}
+.text{
+	float: left;
+	margin-left: 10px;
+}
+.row{
+	padding: 10px;
+}
+/* ___Footer__________________________________________*/
+/* #footer{
+	height: 100px;
+	text-align: center;
+	background-color: gray;
+}
+#lastRow{
+	padding: 15px;
+	margin-bottom: 0px;
+	position: sticky;
+	bottom: 0px;
+} */
+footer{
+	height: 80px;
+	width: 100%;
+	text-align: center;
+	background-color: gray;
+	position: fixed;
+	bottom: 0px;
+}
